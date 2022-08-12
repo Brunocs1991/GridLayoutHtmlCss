@@ -1,0 +1,14 @@
+body{
+    margin: 10px;
+}
+.grid-container{
+    background-color: gray;
+    border: solid 2px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.grid-item{
+    background-color: rgb(68, 68, 193);
+    border: solid 2px rgb(66, 183, 83);
+}
