@@ -5,8 +5,8 @@ body{
     background-color: gray;
     border: solid 2px black;
     display: grid;
-    grid-template-columns: 150px 1fr 100px;
-    grid-template-rows: 100px 400px 100px;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
     grid-template-areas: "cabecalho cabecalho cabecalho"
                          "sidebar conteudo-principal conteudo-principal"
                          "footer footer footer2"
@@ -20,15 +20,18 @@ body{
 
 .header{
     grid-area: cabecalho;
+    padding: 40px 0;
 }
 .sidebar{
     grid-area: sidebar;
+    padding: 0 40px;
 }
 .conteudo-principal{
     grid-area: conteudo-principal;
 }
 .footer{
     grid-area: footer;
+    padding: 40px 0;
 }
 .footer2{
     grid-area: footer2;
