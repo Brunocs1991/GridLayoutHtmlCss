@@ -14,9 +14,9 @@ body{
     /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
     /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
     grid-template-columns: repeat(5,150px);
-    grid-template-rows: 200px;
+    grid-template-rows: 500px;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
 }
 .grid-item{
     background-color: rgb(68, 68, 193);
@@ -25,6 +25,19 @@ body{
     font-weight: 900;
     padding: 10px;
 }
+
+.start{
+    align-self: flex-start;
+    justify-self: flex-start;
+}
+.center{
+    justify-self: center;
+}
+.end{
+    align-self: center;
+    justify-self: flex-end;
+}
+
 
 .header{
     grid-area: cabecalho;
