@@ -5,7 +5,7 @@ body{
     background-color: gray;
     border: solid 2px black;
     display: grid;
-    grid-template: auto auto auto / auto auto auto;
+    grid-template: repeat(3, auto) / repeat(3,auto);
     grid-template-areas: "cabecalho cabecalho cabecalho"
                          "sidebar conteudo-principal conteudo-principal"
                          "footer footer footer2"
